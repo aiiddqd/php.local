@@ -11,3 +11,7 @@
 - `make log` - display log from docker
 - `make stop`
 - `make restart`
+
+# Source
+
+based on manual http://geekyplatypus.com/dockerise-your-php-application-with-nginx-and-php7-fpm/
