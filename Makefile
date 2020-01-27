@@ -1,11 +1,8 @@
-up:
-	docker-compose up -d --remove-orphans
+# Examples https://github.com/ocsigen/osdemo
 
-stop:
-	docker-compose stop
+# Local settings (optional). See Makefile.local.example for an example.
+# WARNING: do not commit to a repository!
+-include Makefile.local
 
-log:
-	docker-compose logs -f
-
-restart:
-	docker-compose restart
+# Docker commands
+include Makefile.docker
