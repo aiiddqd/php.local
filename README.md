@@ -12,6 +12,20 @@
 - `make stop`
 - `make restart`
 
+
+# Snippets
+
+## php composer setup
+```
+docker-compose run php-fpm composer install
+```
+
+## php app shell
+```
+docker exec -ti php-fpm /bin/sh
+```
+
+
 # Source
 
 based on manual http://geekyplatypus.com/dockerise-your-php-application-with-nginx-and-php7-fpm/
