@@ -22,7 +22,7 @@ docker-compose run php-fpm composer install
 
 ## php app shell
 ```
-docker exec -ti php-fpm /bin/sh
+docker exec -ti php-fpm /bin/bash
 ```
 
 
